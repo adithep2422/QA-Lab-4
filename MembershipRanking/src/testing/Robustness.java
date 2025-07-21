@@ -36,11 +36,11 @@ class Robustness {
         "10000, 2, -1, Invalid Input",
         "10000, 2, 0, Standard",
         "10000, 2, 100, Silver",
-        "50000, 5, 500, Gold",
+        "50000, 31, 500, Gold",
         "100000, 6, 10000, Platinum",
 
         "9999999, 10, 99999, Platinum",
-        "100000, 8, 1000, Standard"
+        "100000, 30, 1000, Platinum"
 		
 	})
 	

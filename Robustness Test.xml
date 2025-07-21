@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="Robustness" project="MembershipRanking" tests="17" started="17" failures="11" errors="0" ignored="0">
-  <testsuite name="testing.Robustness" time="0.046" displayname="Robustness" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]">
-    <testsuite name="robustTest(testing.Robustness)" time="0.046" displayname="robustTest(int, int, int, String)" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]">
-      <testcase name="robustTest" classname="testing.Robustness" time="0.046" dynamicTest="true" displayname="[1] -1, 2, 100, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#1]">
+  <testsuite name="testing.Robustness" time="0.047" displayname="Robustness" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]">
+    <testsuite name="robustTest(testing.Robustness)" time="0.047" displayname="robustTest(int, int, int, String)" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.047" dynamicTest="true" displayname="[1] -1, 2, 100, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#1]">
         <failure>
           <expected>Invalid Input</expected>
           <actual>Standard</actual>
@@ -45,7 +45,7 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[2] 0, 2, 100, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#2]"/>
+      <testcase name="robustTest" classname="testing.Robustness" time="0.0" dynamicTest="true" displayname="[2] 0, 2, 100, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#2]"/>
       <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[3] 10000, 2, 100, Silver" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#3]"/>
       <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[4] 99999, 5, 500, Gold" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#4]">
         <failure>
@@ -135,7 +135,7 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[6] 10000, -1, 100, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#6]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.003" dynamicTest="true" displayname="[6] 10000, -1, 100, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#6]">
         <failure>
           <expected>Invalid Input</expected>
           <actual>Standard</actual>
@@ -179,9 +179,9 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[7] 10000, 0, 100, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#7]"/>
+      <testcase name="robustTest" classname="testing.Robustness" time="0.0" dynamicTest="true" displayname="[7] 10000, 0, 100, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#7]"/>
       <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[8] 10000, 2, 100, Silver" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#8]"/>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[9] 50000, 5, 500, Gold" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#9]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[9] 50000, 5, 500, Gold" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#9]">
         <failure>
           <expected>Gold</expected>
           <actual>Silver</actual>
@@ -225,7 +225,7 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[10] 100000, 8, 1000, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#10]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[10] 100000, 8, 1000, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#10]">
         <failure>
           <expected>Standard</expected>
           <actual>Silver</actual>
@@ -269,7 +269,7 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[11] 10000, 2, -1, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#11]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[11] 10000, 2, -1, Invalid Input" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#11]">
         <failure>
           <expected>Invalid Input</expected>
           <actual>Standard</actual>
@@ -313,9 +313,9 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[12] 10000, 2, 0, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#12]"/>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.0" dynamicTest="true" displayname="[13] 10000, 2, 100, Silver" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#13]"/>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[14] 50000, 5, 500, Gold" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#14]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.0" dynamicTest="true" displayname="[12] 10000, 2, 0, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#12]"/>
+      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[13] 10000, 2, 100, Silver" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#13]"/>
+      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[14] 50000, 31, 500, Gold" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#14]">
         <failure>
           <expected>Gold</expected>
           <actual>Silver</actual>
@@ -403,7 +403,7 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[16] 9999999, 10, 99999, Platinum" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#16]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[16] 9999999, 10, 99999, Platinum" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#16]">
         <failure>
           <expected>Platinum</expected>
           <actual>Silver</actual>
@@ -447,11 +447,11 @@
 
         </failure>
       </testcase>
-      <testcase name="robustTest" classname="testing.Robustness" time="0.001" dynamicTest="true" displayname="[17] 100000, 8, 1000, Standard" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#17]">
+      <testcase name="robustTest" classname="testing.Robustness" time="0.002" dynamicTest="true" displayname="[17] 100000, 30, 1000, Platinum" parameters="int,int,int,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:testing.Robustness]/[test-template:robustTest(int, int, int, java.lang.String)]/[test-template-invocation:#17]">
         <failure>
-          <expected>Standard</expected>
+          <expected>Platinum</expected>
           <actual>Silver</actual>
-          org.opentest4j.AssertionFailedError: expected: &lt;Standard&gt; but was: &lt;Silver&gt;&#13;
+          org.opentest4j.AssertionFailedError: expected: &lt;Platinum&gt; but was: &lt;Silver&gt;&#13;
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;

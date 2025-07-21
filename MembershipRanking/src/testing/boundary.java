@@ -26,9 +26,9 @@ class Boundary {
     	"50000, 7, 500, Standard",
     	"49999,	1, 500, Silver",
     	"50000, 1, 500, Silver",
-    	"75000,	4, 750, Gold",
-    	"100000, 4, 500, Gold",
-    	"100000, 6, 1000, Platinum"
+    	"75000,	29, 750, Gold",
+    	"100000, 30, 500, Gold",
+    	"100000, 16, 1000, Platinum"
     	
     })
     void boundaryTest(int purchaseTotal, int freq, int point, String expected) {
